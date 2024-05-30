@@ -1,27 +1,34 @@
-# Helpdesk
+<h2 align="center">♦️ HelpDesk - FrontEnd do Projeto </h2>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+### 🖥️ Descrição do projeto:
+ 
+ Neste projeto foi realizada a construção de uma aplicação Web Completa, com CRUD(Creste, Read, Update e Delete) e Arquitetura MVC.
+ O projeto consiste no desenvolvimento de um sistema para abertura e fechamento de chamados de ordens de serviços, onde usuários específicos do sistema tem permições para gerenciar as suas ordens de serviço.
 
-## Development server
+### 📋 Alguns Requisitos Funcionais do Projeto:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ ✏️ O sistema deve permitir cadastrar novos usuários
 
-## Code scaffolding
+ ✏️ O sistema deve permitir Excluir Usuários.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ ✏️ O sistema deve fazer a autenticação de todos os usuários.
 
-## Build
+ ✏️ O sistema deve permitir a Abertura de Ordens de Serviço apenas por usuários Técnicos.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+ ✏️ Todos os chamados terão que serem atribuídos a um Técnico.
 
-## Running unit tests
+ ✏️ Os chamados terão níveis de prioridade.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ ✏️ O sistema deve permitir a definição de perfis de acesso.
 
-## Running end-to-end tests
+### 🛠️ Tecnologias Utilizadas no Front-End:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ 📌 Angular 12
 
-## Further help
+ 📌 Typescript
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ 📌 HTML
+
+ 📌 CSS
+
+ 📌 Componentes do Angular Material 
